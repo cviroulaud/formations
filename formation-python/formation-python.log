@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.07.0 (TeX Live 2019/dev/Debian)  (format=lualatex 2020.5.30)  3 DEC 2020 08:51
+This is LuaTeX, Version 1.07.0 (TeX Live 2019/dev/Debian)  (format=lualatex 2020.5.30)  3 DEC 2020 17:23
  restricted system commands enabled.
 **formation-python.tex
 (./formation-python.tex
@@ -48,7 +48,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.076 seconds
+luaotfload | main : initialization completed in 0.083 seconds
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
@@ -1736,12 +1736,12 @@ LaTeX Warning: There were multiply-defined labels.
 
 Here is how much of LuaTeX's memory you used:
  39246 strings out of 494383
- 476920,953878 words of node,token memory allocated
- 114262 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 49 glue, 4 kern, 1 penalty, 13480 glyph, 8090 attri
+ 476912,953878 words of node,token memory allocated
+ 113828 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 49 glue, 4 kern, 1 penalty, 13418 glyph, 8090 attri
 bute, 98 glue_spec, 1350 attribute_list, 1 write nodes
-   avail lists: 1:9,2:11292,3:636,4:8855,5:6914,6:163,7:7223,8:6342,9:11530,10:3
-1,11:749
+   avail lists: 1:10,2:11285,3:636,4:8855,5:6911,6:163,7:7183,8:6342,9:11530,10:
+31,11:746
  42022 multiletter control sequences out of 65536+600000
  55 fonts using 8179343 bytes
  74i,15n,95p,1111b,1113s stack positions out of 5000i,500n,10000p,200000b,100000s
@@ -1753,7 +1753,7 @@ tf></usr/share/texmf/fonts/opentype/public/lm/lmroman12-bold.otf></usr/share/tex
 mf/fonts/opentype/public/lm/lmroman10-regular.otf></usr/share/texmf/fonts/openty
 pe/public/lm/lmsans10-regular.otf></usr/share/texlive/texmf-dist/fonts/type1/urw
 /zapfding/uzdr.pfb>
-Output written on formation-python.pdf (12 pages, 118819 bytes).
+Output written on formation-python.pdf (12 pages, 118788 bytes).
 
 PDF statistics: 553 PDF objects out of 1000 (max. 8388607)
  500 compressed objects within 5 object streams
