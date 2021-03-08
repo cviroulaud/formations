@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.07.0 (TeX Live 2019/dev/Debian)  (format=lualatex 2020.5.30)  4 MAR 2021 20:38
+This is LuaTeX, Version 1.07.0 (TeX Live 2019/dev/Debian)  (format=lualatex 2020.5.30)  6 MAR 2021 12:32
  system commands enabled.
 **/home/tof/Documents/Cozy/formations/capes/oral
 (/home/tof/Documents/Cozy/formations/capes/oral.tex
@@ -33,7 +33,7 @@ Inserting `luaotfload.aux.patch_cambria_domh' at position 2 in `luaotfload.patch
 Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_font_unsafe'.
 Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font'.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'.
-luaotfload | main : initialization completed in 0.118 seconds
+luaotfload | main : initialization completed in 0.125 seconds
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
@@ -1415,16 +1415,16 @@ This may cause the page layout to be inconsistent, however.
 </home/tof/Documents/Cozy/latex-include/cc.png, id=8, 88.33pt x 31.11626pt>
 File: /home/tof/Documents/Cozy/latex-include/cc.png Graphic file (type png)
 <use /home/tof/Documents/Cozy/latex-include/cc.png>
-Package luatex.def Info: /home/tof/Documents/Cozy/latex-include/cc.png  used on input line 27.
+Package luatex.def Info: /home/tof/Documents/Cozy/latex-include/cc.png  used on input line 40.
 (luatex.def)             Requested size: 56.9055pt x 20.04631pt.
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 </home/tof/Documents/Cozy/latex-include/cc.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 27.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 27.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 40.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 40.
  (./oral.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 27.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 27.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 40.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 40.
 Package rerunfilecheck Info: File `oral.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 )
@@ -1432,17 +1432,17 @@ Package rerunfilecheck Info: File `oral.out' has not changed.
 Here is how much of LuaTeX's memory you used:
  41052 strings out of 494383
  125095,1144653 words of node,token memory allocated
- 5680 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 6 glue, 4 kern, 1 penalty, 658 glyph, 152 attribute, 97 glue_spec, 27 attribute_list, 1 write nodes
-   avail lists: 1:4,2:669,3:47,4:23,5:107,6:14,7:982,8:20,9:92,10:2,11:82
+ 10335 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 14 glue, 4 kern, 1 penalty, 1279 glyph, 260 attribute, 97 glue_spec, 45 attribute_list, 1 write nodes
+   avail lists: 1:4,2:1047,3:101,4:41,5:143,6:23,7:1903,8:20,9:132,10:2,11:142
  44083 multiletter control sequences out of 65536+600000
  51 fonts using 7631887 bytes
  84i,17n,95p,1140b,482s stack positions out of 5000i,500n,10000p,200000b,100000s
-</usr/share/texmf/fonts/opentype/public/lm/lmroman10-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman10-bold.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman12-bold.otf></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on oral.pdf (1 page, 22889 bytes).
+</usr/share/texmf/fonts/opentype/public/lm/lmroman10-italic.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman10-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman10-bold.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman12-bold.otf></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on oral.pdf (1 page, 27172 bytes).
 
-PDF statistics: 45 PDF objects out of 1000 (max. 8388607)
- 29 compressed objects within 1 object stream
+PDF statistics: 52 PDF objects out of 1000 (max. 8388607)
+ 33 compressed objects within 1 object stream
  2 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 100000000)
 
