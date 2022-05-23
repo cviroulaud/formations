@@ -1,0 +1,18 @@
+\frametitle{}
+
+\begin{center}
+\begin{lstlisting}[language=Python , basicstyle=\ttfamily\small, xleftmargin=2em, xrightmargin=2em]
+# confusion indice / élément
+tab = [3, 9, 1]
+for i in tab:
+    print(tab[i])
+\end{lstlisting}
+\begin{lstlisting}[language=Python , basicstyle=\ttfamily\small, xleftmargin=2em, xrightmargin=2em]
+# indice dans un dictionnaire
+dico = {"a": 2, "e": 4, "f": 1}
+for i in range(len(dico)):
+    print(dico[i])
+\end{lstlisting}
+\captionof{code}{Erreurs courantes}
+\label{CODE}
+        \end{center}

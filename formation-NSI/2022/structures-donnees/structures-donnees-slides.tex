@@ -335,7 +335,76 @@
     \end{aretenir}
 
 \end{frame}
-\section{Dictionnaires}
+\section{Parcours de listes et dictionnaires}
+\subsection{Difficultés rencontrées}
+\begin{frame}
+    \frametitle{Parcours de listes et dictionnaires - Difficultés rencontrées}
+
+    \begin{aretenir}[Constat]
+\begin{itemize}
+    \item Dans un tableau, confusion indice / élément.
+    \item Tentative de récupération des informations dans un dictionnaire, avec un indice.
+\end{itemize}
+    \end{aretenir}
+\end{frame}
+\begin{frame}[fragile]
+    \frametitle{}
+
+\begin{center}
+\begin{lstlisting}[language=Python , basicstyle=\ttfamily\small, xleftmargin=2em, xrightmargin=2em]
+# confusion indice / élément
+tab = [3, 9, 1]
+for i in tab:
+    print(tab[i])
+\end{lstlisting}
+\begin{lstlisting}[language=Python , basicstyle=\ttfamily\small, xleftmargin=2em, xrightmargin=2em]
+# indice dans un dictionnaire
+dico = {"a": 2, "e": 4, "f": 1}
+for i in range(len(dico)):
+    print(dico[i])
+\end{lstlisting}
+\captionof{code}{Erreurs courantes}
+\label{CODE}
+        \end{center}
+\end{frame}
+\subsection{Surmonter les difficultés}
+\begin{frame}
+    \frametitle{Surmonter les difficultés}
+
+    \begin{center}
+        \begin{tikzpicture}[scale=0.8]
+            \draw (0,0) grid (5,1);
+
+            \draw (0.5,2.5) node{h};
+            \draw (1.5,2.5) node{e};
+            \draw (2.5,2.5) node{y};
+
+            \draw (0.5,6.5) node{h};
+            \draw (1.5,6.5) node{e};
+            \draw (2.5,6.5) node{l};
+            \draw (3.5,6.5) node{l};
+            \draw (4.5,6.5) node{o};
+            \draw (5.5,6.5) node{!};
+
+            \draw (10.5,2.5) node{!};
+            \draw (7.5,4.5) node{9};
+            \draw (8.5,3.5) node{6};
+            \draw (1.5,4.5) node{3};
+            \draw (2.5,1.5) node{4};
+            \draw (1.5,1.5) node{3};
+        \end{tikzpicture}
+        \captionof{figure}{\centering On accède à l'élément de rang \textbf{\texttt{n}} \textbf{en temps linéaire}.}
+    \end{center}
+
+\end{frame}
+
+\section{Fonction et paramètre mutable}
+\begin{frame}
+    \frametitle{Fonction et paramètre mutable}
+valeur par défaut dans paramètre
+    
+
+\end{frame}
 \section{Piles, files}
 \subsection{Définition}
 \subsection{Interface}

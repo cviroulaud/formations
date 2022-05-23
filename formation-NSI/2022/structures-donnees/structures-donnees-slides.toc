@@ -11,8 +11,11 @@
 \beamer@subsubsectionintoc {2}{3}{1}{Définition}{16}{0}{2}
 \beamer@subsubsectionintoc {2}{3}{2}{Complexité temporelle}{18}{0}{2}
 \beamer@subsectionintoc {2}{4}{\textbf {\texttt {list} Python}}{20}{0}{2}
-\beamer@sectionintoc {3}{Dictionnaires}{22}{0}{3}
-\beamer@sectionintoc {4}{Piles, files}{23}{0}{4}
-\beamer@subsectionintoc {4}{1}{Définition}{24}{0}{4}
-\beamer@subsectionintoc {4}{2}{Interface}{24}{0}{4}
-\beamer@subsectionintoc {4}{3}{Implémentations}{25}{0}{4}
+\beamer@sectionintoc {3}{Parcours de listes et dictionnaires}{22}{0}{3}
+\beamer@subsectionintoc {3}{1}{Difficultés rencontrées}{23}{0}{3}
+\beamer@subsectionintoc {3}{2}{Surmonter les difficultés}{25}{0}{3}
+\beamer@sectionintoc {4}{Fonction et paramètre mutable}{27}{0}{4}
+\beamer@sectionintoc {5}{Piles, files}{29}{0}{5}
+\beamer@subsectionintoc {5}{1}{Définition}{30}{0}{5}
+\beamer@subsectionintoc {5}{2}{Interface}{30}{0}{5}
+\beamer@subsectionintoc {5}{3}{Implémentations}{31}{0}{5}

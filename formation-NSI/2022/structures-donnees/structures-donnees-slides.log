@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.07.0 (TeX Live 2019/dev/Debian)  (format=lualatex 2020.5.30)  30 MAR 2022 11:18
+This is LuaTeX, Version 1.07.0 (TeX Live 2019/dev/Debian)  (format=lualatex 2020.5.30)  19 MAY 2022 08:11
  system commands enabled.
 **/home/tof/Documents/Cozy/formations/formation-NSI/2022/structures-donnees/structures-donnees-slides
 (/home/tof/Documents/Cozy/formations/formation-NSI/2022/structures-donnees/structures-donnees-slides.tex
@@ -33,7 +33,7 @@ Inserting `luaotfload.aux.patch_cambria_domh' at position 2 in `luaotfload.patch
 Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_font_unsafe'.
 Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font'.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'.
-luaotfload | main : initialization completed in 0.123 seconds
+luaotfload | main : initialization completed in 0.148 seconds
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamer.cls
 Document Class: beamer 2018/12/02 v3.55 A class for typesetting presentations
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasemodes.sty (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
@@ -1585,7 +1585,7 @@ LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <4> not available
 ] (./structures-donnees-slides.toc) [3
 
 ]
-<ressources/premiere.png, id=167, 2043.635pt x 1222.5675pt>
+<ressources/premiere.png, id=192, 2043.635pt x 1222.5675pt>
 File: ressources/premiere.png Graphic file (type png)
 <use ressources/premiere.png>
 Package luatex.def Info: ressources/premiere.png  used on input line 32.
@@ -1600,7 +1600,7 @@ Overfull \hbox (5.69043pt too wide) in paragraph at lines 32--32
 <./ressources/premiere.png>] (./structures-donnees-slides.toc) [5
 
 ]
-<ressources/terminale1.png, id=221, 1788.6825pt x 405.515pt>
+<ressources/terminale1.png, id=253, 1788.6825pt x 405.515pt>
 File: ressources/terminale1.png Graphic file (type png)
 <use ressources/terminale1.png>
 Package luatex.def Info: ressources/terminale1.png  used on input line 44.
@@ -1610,7 +1610,7 @@ Overfull \hbox (5.69043pt too wide) in paragraph at lines 44--44
  [] 
  []
 
-<ressources/terminale2.png, id=222, 1790.69pt x 499.8675pt>
+<ressources/terminale2.png, id=254, 1790.69pt x 499.8675pt>
 File: ressources/terminale2.png Graphic file (type png)
 <use ressources/terminale2.png>
 Package luatex.def Info: ressources/terminale2.png  used on input line 44.
@@ -1730,11 +1730,41 @@ LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <14.4> not available
 
 ] (./structures-donnees-slides.toc) [22
 
-] (./structures-donnees-slides.toc) [23
+]
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 349.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 349.
+Package mdframed Info: mdframed inside a box 
+ mdframed uses option nobreak mdframed on input line 349.
+ [23
 
-] (./structures-donnees-slides.toc) [24
+]
+\openout4 = structures-donnees-slides.vrb
+ (./structures-donnees-slides.vrb
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+) [24
 
 ] (./structures-donnees-slides.toc) [25
+
+] [26
+
+] (./structures-donnees-slides.toc) [27
+
+] [28
+
+] (./structures-donnees-slides.toc) [29
+
+] (./structures-donnees-slides.toc) [30
+
+] (./structures-donnees-slides.toc) [31
 
 ]
 \tf@nav=\write8
@@ -1746,33 +1776,47 @@ LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <14.4> not available
 \tf@snm=\write10
 
 \openout10 = structures-donnees-slides.snm
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 345.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 345.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 414.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 414.
  (./structures-donnees-slides.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 345.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 345.
-Package rerunfilecheck Info: File `structures-donnees-slides.out' has not changed.
-(rerunfilecheck)             Checksum: 5C1DB6F8E99E182AC4025CFF82DD3C6A;1444.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 414.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 414.
 
+
+Package rerunfilecheck Warning: File `structures-donnees-slides.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `structures-donnees-slides.out':
+(rerunfilecheck)             Before: 5E3A220DCEA13E6501C8FF152D564789;2143
+(rerunfilecheck)             After:  5420A52C0564EF8D3F8DF78A7ABD26B6;2143.
 
 LaTeX Warning: There were multiply-defined labels.
 
 )
 
 Here is how much of LuaTeX's memory you used:
- 44670 strings out of 494383
- 156328,1144653 words of node,token memory allocated
- 76192 words of node memory still in use:
-   38 hlist, 13 vlist, 4 rule, 13 disc, 9 local_par, 88 glue, 5 kern, 18 penalty, 8803 glyph, 5211 attribute, 106 glue_spec, 871 attribute_list, 7 write, 8 pdf_literal, 7 pdf_start_link, 7 pdf_end_link, 2 pdf_dest, 7 pdf_action, 62 pdf_colorstack nodes
-   avail lists: 1:5,2:8772,3:1239,4:257,5:93,6:63,7:760,8:37,9:506,10:13,11:61,12:1
- 47179 multiletter control sequences out of 65536+600000
- 69 fonts using 9972767 bytes
+ 44945 strings out of 494383
+ 244272,1144653 words of node,token memory allocated
+ 120377 words of node memory still in use:
+   41 hlist, 14 vlist, 4 rule, 18 disc, 10 local_par, 103 glue, 9 kern, 19 penalty, 14380 glyph, 7299 attribute, 106 glue_spec, 1219 attribute_list, 7 write, 8 pdf_literal, 8 pdf_start_link, 8 pdf_end_link, 2 pdf_dest, 8 pdf_action, 70 pdf_colorstack nodes
+   avail lists: 1:7,2:6751,3:1233,4:2851,5:2198,6:69,7:981,8:1968,9:3701,10:25,11:237,12:1
+ 47409 multiletter control sequences out of 65536+600000
+ 71 fonts using 10224927 bytes
  70i,15n,95p,1193b,1064s stack positions out of 5000i,500n,10000p,200000b,100000s
-</usr/share/texmf/fonts/opentype/public/lm/lmromancaps10-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmsans9-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmsans10-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmsans12-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmsans10-bold.otf></usr/share/texmf/fonts/opentype/public/lm/lmmonolt10-bold.otf></usr/share/texmf/fonts/opentype/public/lm/lmsans8-regular.otf></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on structures-donnees-slides.pdf (25 pages, 442737 bytes).
 
-PDF statistics: 823 PDF objects out of 1000 (max. 8388607)
- 753 compressed objects within 8 object streams
- 69 named destinations out of 1000 (max. 131072)
- 130 words of extra memory for PDF output out of 10000 (max. 100000000)
+warning  (pdf backend): unreferenced destination with name 'Outline0.5.3.30'
+
+warning  (pdf backend): unreferenced destination with name 'Outline0.5.2.29'
+
+warning  (pdf backend): unreferenced destination with name 'Outline0.5.1.29'
+
+warning  (pdf backend): unreferenced destination with name 'Outline0.4.1.27'
+</usr/share/texmf/fonts/opentype/public/lm/lmmono10-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmromancaps10-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmsans9-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmsans10-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmsans12-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmsans10-bold.otf></usr/share/texmf/fonts/opentype/public/lm/lmmonolt10-bold.otf></usr/share/texmf/fonts/opentype/public/lm/lmsans8-regular.otf></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on structures-donnees-slides.pdf (31 pages, 467155 bytes).
+
+PDF statistics: 1111 PDF objects out of 1200 (max. 8388607)
+ 1029 compressed objects within 11 object streams
+ 89 named destinations out of 1000 (max. 131072)
+ 154 words of extra memory for PDF output out of 10000 (max. 100000000)
 
