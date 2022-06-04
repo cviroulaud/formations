@@ -372,37 +372,150 @@ for i in range(len(dico)):
     \frametitle{Surmonter les difficultés}
 
     \begin{center}
-        \begin{tikzpicture}[scale=0.8]
+        \begin{tikzpicture}
             \draw (0,0) grid (5,1);
 
-            \draw (0.5,2.5) node{h};
-            \draw (1.5,2.5) node{e};
-            \draw (2.5,2.5) node{y};
+            \foreach \i/\n in {0/3,1/8,2/13,3/23,4/1}{
+                \draw (0.5+\i,0.5) node{\n};
+                \node[draw,fill=lightgray] at(0.5+\i,1) {\i};
+            }
 
-            \draw (0.5,6.5) node{h};
-            \draw (1.5,6.5) node{e};
-            \draw (2.5,6.5) node{l};
-            \draw (3.5,6.5) node{l};
-            \draw (4.5,6.5) node{o};
-            \draw (5.5,6.5) node{!};
-
-            \draw (10.5,2.5) node{!};
-            \draw (7.5,4.5) node{9};
-            \draw (8.5,3.5) node{6};
-            \draw (1.5,4.5) node{3};
-            \draw (2.5,1.5) node{4};
-            \draw (1.5,1.5) node{3};
         \end{tikzpicture}
-        \captionof{figure}{\centering On accède à l'élément de rang \textbf{\texttt{n}} \textbf{en temps linéaire}.}
+        \captionof{figure}{\centering Dans un tableau chaque élément possède une étiquette.}
+    \end{center}
+
+    \begin{center}
+        \begin{tikzpicture}
+            \node[draw,minimum height=1cm,minimum width=1cm] at(0,0) {23};
+            \node[draw,fill=lightgray] at(0,0.5) {"a"};
+
+            \node[draw,minimum height=1cm,minimum width=1cm] at(2,2) {8};
+            \node[draw,fill=lightgray] at(2,2.5) {"d"};
+
+            \node[draw,minimum height=1cm,minimum width=1cm] at(0.5,1.5) {19};
+            \node[draw,fill=lightgray] at(0.5,2) {"s"};
+
+            \node[draw,minimum height=1cm,minimum width=1cm] at(1.8,0) {12};
+            \node[draw,fill=lightgray] at(1.8,0.5) {"h"};
+        \end{tikzpicture}
+        \captionof{figure}{\centering Dans un dictionnaire chaque élément possède une étiquette.}
     \end{center}
 
 \end{frame}
+\begin{frame}[fragile]
+    \frametitle{}
 
-\section{Fonction et paramètre mutable}
-\begin{frame}
-    \frametitle{Fonction et paramètre mutable}
-valeur par défaut dans paramètre
     
+
+\end{frame}
+\section{Fonction et paramètre mutable}
+\begin{frame}[fragile]
+    \frametitle{Fonction et paramètre mutable}
+    \begin{center}
+    \begin{lstlisting}[language=Python, basicstyle=\ttfamily\small , xleftmargin=1em, xrightmargin=1em]
+tab = [3, 8, 13, 23, 1]
+\end{lstlisting}
+    \begin{tikzpicture}
+        \draw (0,0) grid (5,1);
+
+        \foreach \i/\n in {0/3,1/8,2/13,3/23,4/1}{
+            \draw (0.5+\i,0.5) node{\n};
+        }
+
+        \node at(-3,0) (tab){tab};
+        \draw[->,>=latex] (tab) -- (0,0.5);
+    \end{tikzpicture}
+    \captionof{figure}{\centering La variable \textbf{\texttt{tab}} contient une référence au tableau.}
+\end{center}
+
+\end{frame}
+\begin{frame}[fragile]
+    \frametitle{}
+\begin{center}
+\begin{lstlisting}[language=Python, basicstyle=\ttfamily\small , xleftmargin=1em, xrightmargin=1em]
+tab = [3, 8, 13, 23, 1]
+tab1 = tab
+\end{lstlisting}
+\begin{tikzpicture}
+    \draw (0,0) grid (5,1);
+
+    \foreach \i/\n in {0/3,1/8,2/13,3/23,4/1}{
+        \draw (0.5+\i,0.5) node{\n};
+    }
+
+    \node at(-3,0) (tab){tab};
+    \draw[->,>=latex] (tab) -- (0,0.5);
+
+    \node at(-3,1) (tab1){tab1};
+    \draw[->,>=latex] (tab1) -- (0,0.5);
+\end{tikzpicture}
+\captionof{figure}{\centering La ligne 2 ne copie pas le contenu du tableau mais sa référence.}
+\end{center}
+
+\end{frame}
+\begin{frame}[fragile]
+    \frametitle{}
+
+
+\begin{center}
+\begin{lstlisting}[language=Python, basicstyle=\ttfamily\small , xleftmargin=1em, xrightmargin=1em]
+def ma_fonction(t: list) -> None:
+    t[0] = 99
+
+tab = [3, 8, 13, 23, 1]
+ma_fonction(tab)
+\end{lstlisting}
+\begin{tikzpicture}
+    \draw (0,0) grid (5,1);
+
+    \foreach \i/\n in {0/3,1/8,2/13,3/23,4/1}{
+        \draw (0.5+\i,0.5) node{\n};
+    }
+
+    \node at(-3,0) (tab){tab};
+    \draw[->,>=latex] (tab) -- (0,0.5);
+\end{tikzpicture}
+\begin{tikzpicture}
+    \draw (0,0) grid (5,1);
+
+    \foreach \i/\n in {0/99,1/8,2/13,3/23,4/1}{
+        \draw (0.5+\i,0.5) node{\n};
+    }
+
+    \node at(-3,0.5) (tab){tab};
+    \draw[->,>=latex] (tab) -- (0,0.5);
+
+
+    \node at(-3,1) (tab1){t};
+    \draw[->,>=latex] (tab1) -- (0,0.5);
+\end{tikzpicture}
+\captionof{figure}{\centering Le paramètre \textbf{\texttt{t}} contient une référence au tableau.}
+\end{center} 
+\begin{center}
+    {\LARGE \href{https://tinyurl.com/tabfonc}{Visualiser sur Pythontutor}}
+\end{center}
+\end{frame}
+\begin{frame}[fragile]
+    \frametitle{}
+\begin{center}
+\begin{lstlisting}[language=Python, basicstyle=\ttfamily\small , xleftmargin=1em, xrightmargin=0em]
+def prefixe(arbre: list, i: int = 0, p: list = []):
+    if i < len(arbre):
+        p.append(arbre[i])
+        prefixe(arbre, 2*i+1, p)
+        prefixe(arbre, 2*i+2, p)
+    return p
+
+
+arbre = [0, 1, 2, 3, 4, 5, 6]
+parcours = prefixe(arbre)
+parcours = prefixe(arbre)
+\end{lstlisting}
+\captionof{code}{valeur par défaut dans paramètre
+}
+\label{CODE}
+\end{center}
+
 
 \end{frame}
 \section{Piles, files}

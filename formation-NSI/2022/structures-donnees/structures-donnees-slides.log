@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.07.0 (TeX Live 2019/dev/Debian)  (format=lualatex 2020.5.30)  19 MAY 2022 08:11
+This is LuaTeX, Version 1.07.0 (TeX Live 2019/dev/Debian)  (format=lualatex 2020.5.30)  27 MAY 2022 14:11
  system commands enabled.
 **/home/tof/Documents/Cozy/formations/formation-NSI/2022/structures-donnees/structures-donnees-slides
 (/home/tof/Documents/Cozy/formations/formation-NSI/2022/structures-donnees/structures-donnees-slides.tex
@@ -33,7 +33,7 @@ Inserting `luaotfload.aux.patch_cambria_domh' at position 2 in `luaotfload.patch
 Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_font_unsafe'.
 Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font'.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'.
-luaotfload | main : initialization completed in 0.148 seconds
+luaotfload | main : initialization completed in 0.106 seconds
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamer.cls
 Document Class: beamer 2018/12/02 v3.55 A class for typesetting presentations
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasemodes.sty (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
@@ -1348,6 +1348,9 @@ Package: colortbl 2018/12/12 v1.0d Color table columns (DPC)
 
 LaTeX Warning: Label `IMG' multiply defined.
 
+
+LaTeX Warning: Label `CODE' multiply defined.
+
 )
 \openout1 = structures-donnees-slides.aux
 
@@ -1756,15 +1759,51 @@ Package inputenc Warning: inputenc package ignored with utf8 based engines.
 
 ] [26
 
-] (./structures-donnees-slides.toc) [27
+]
+\openout4 = structures-donnees-slides.vrb
+ (./structures-donnees-slides.vrb) [27
 
-] [28
+] (./structures-donnees-slides.toc) [28
 
-] (./structures-donnees-slides.toc) [29
+]
+\openout4 = structures-donnees-slides.vrb
+ (./structures-donnees-slides.vrb
 
-] (./structures-donnees-slides.toc) [30
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
 
-] (./structures-donnees-slides.toc) [31
+) [29
+
+]
+\openout4 = structures-donnees-slides.vrb
+ (./structures-donnees-slides.vrb
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+) [30
+
+]
+\openout4 = structures-donnees-slides.vrb
+ (./structures-donnees-slides.vrb
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+) [31
+
+]
+\openout4 = structures-donnees-slides.vrb
+ (./structures-donnees-slides.vrb
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+
+warning  (pdf backend): ignoring duplicate destination with the name 'CODE'
+) [32
+
+] (./structures-donnees-slides.toc) [33
+
+] (./structures-donnees-slides.toc) [34
+
+] (./structures-donnees-slides.toc) [35
 
 ]
 \tf@nav=\write8
@@ -1776,47 +1815,33 @@ Package inputenc Warning: inputenc package ignored with utf8 based engines.
 \tf@snm=\write10
 
 \openout10 = structures-donnees-slides.snm
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 414.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 414.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 527.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 527.
  (./structures-donnees-slides.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 414.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 414.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 527.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 527.
+Package rerunfilecheck Info: File `structures-donnees-slides.out' has not changed.
+(rerunfilecheck)             Checksum: 5A4024476BC4E461E65593E265D1BD3F;2143.
 
-
-Package rerunfilecheck Warning: File `structures-donnees-slides.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `structures-donnees-slides.out':
-(rerunfilecheck)             Before: 5E3A220DCEA13E6501C8FF152D564789;2143
-(rerunfilecheck)             After:  5420A52C0564EF8D3F8DF78A7ABD26B6;2143.
 
 LaTeX Warning: There were multiply-defined labels.
 
 )
 
 Here is how much of LuaTeX's memory you used:
- 44945 strings out of 494383
- 244272,1144653 words of node,token memory allocated
- 120377 words of node memory still in use:
-   41 hlist, 14 vlist, 4 rule, 18 disc, 10 local_par, 103 glue, 9 kern, 19 penalty, 14380 glyph, 7299 attribute, 106 glue_spec, 1219 attribute_list, 7 write, 8 pdf_literal, 8 pdf_start_link, 8 pdf_end_link, 2 pdf_dest, 8 pdf_action, 70 pdf_colorstack nodes
-   avail lists: 1:7,2:6751,3:1233,4:2851,5:2198,6:69,7:981,8:1968,9:3701,10:25,11:237,12:1
- 47409 multiletter control sequences out of 65536+600000
- 71 fonts using 10224927 bytes
+ 45030 strings out of 494383
+ 305342,1144653 words of node,token memory allocated
+ 140425 words of node memory still in use:
+   41 hlist, 14 vlist, 4 rule, 18 disc, 10 local_par, 101 glue, 9 kern, 19 penalty, 16696 glyph, 8949 attribute, 106 glue_spec, 1494 attribute_list, 7 write, 8 pdf_literal, 8 pdf_start_link, 8 pdf_end_link, 2 pdf_dest, 8 pdf_action, 70 pdf_colorstack nodes
+   avail lists: 1:6,2:7358,3:1233,4:4200,5:3469,6:70,7:1632,8:3118,9:5675,10:28,11:321,12:1
+ 47444 multiletter control sequences out of 65536+600000
+ 72 fonts using 10356671 bytes
  70i,15n,95p,1193b,1064s stack positions out of 5000i,500n,10000p,200000b,100000s
+</usr/share/texmf/fonts/opentype/public/lm/lmsans17-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmmono10-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmromancaps10-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmsans9-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmsans10-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmsans12-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmsans10-bold.otf></usr/share/texmf/fonts/opentype/public/lm/lmmonolt10-bold.otf></usr/share/texmf/fonts/opentype/public/lm/lmsans8-regular.otf></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on structures-donnees-slides.pdf (35 pages, 481640 bytes).
 
-warning  (pdf backend): unreferenced destination with name 'Outline0.5.3.30'
-
-warning  (pdf backend): unreferenced destination with name 'Outline0.5.2.29'
-
-warning  (pdf backend): unreferenced destination with name 'Outline0.5.1.29'
-
-warning  (pdf backend): unreferenced destination with name 'Outline0.4.1.27'
-</usr/share/texmf/fonts/opentype/public/lm/lmmono10-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmromancaps10-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmsans9-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmsans10-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmsans12-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmsans10-bold.otf></usr/share/texmf/fonts/opentype/public/lm/lmmonolt10-bold.otf></usr/share/texmf/fonts/opentype/public/lm/lmsans8-regular.otf></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on structures-donnees-slides.pdf (31 pages, 467155 bytes).
-
-PDF statistics: 1111 PDF objects out of 1200 (max. 8388607)
- 1029 compressed objects within 11 object streams
- 89 named destinations out of 1000 (max. 131072)
+PDF statistics: 1225 PDF objects out of 1440 (max. 8388607)
+ 1135 compressed objects within 12 object streams
+ 93 named destinations out of 1000 (max. 131072)
  154 words of extra memory for PDF output out of 10000 (max. 100000000)
 

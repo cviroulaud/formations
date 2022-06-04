@@ -1,18 +1,21 @@
 \frametitle{}
-
 \begin{center}
-\begin{lstlisting}[language=Python , basicstyle=\ttfamily\small, xleftmargin=2em, xrightmargin=2em]
-# confusion indice / élément
-tab = [3, 9, 1]
-for i in tab:
-    print(tab[i])
+\begin{lstlisting}[language=Python, basicstyle=\ttfamily\small , xleftmargin=1em, xrightmargin=0em]
+def prefixe(arbre: list, i: int = 0, p: list = []):
+    if i < len(arbre):
+        p.append(arbre[i])
+        prefixe(arbre, 2*i+1, p)
+        prefixe(arbre, 2*i+2, p)
+    return p
+
+
+arbre = [0, 1, 2, 3, 4, 5, 6]
+parcours = prefixe(arbre)
+parcours = prefixe(arbre)
 \end{lstlisting}
-\begin{lstlisting}[language=Python , basicstyle=\ttfamily\small, xleftmargin=2em, xrightmargin=2em]
-# indice dans un dictionnaire
-dico = {"a": 2, "e": 4, "f": 1}
-for i in range(len(dico)):
-    print(dico[i])
-\end{lstlisting}
-\captionof{code}{Erreurs courantes}
+\captionof{code}{valeur par défaut dans paramètre
+}
 \label{CODE}
-        \end{center}
+\end{center}
+
+
