@@ -2,11 +2,11 @@
 \input{/home/tof/Documents/Cozy/latex-include/preambule_commun.tex}
 \input{/home/tof/Documents/Cozy/latex-include/preambule_beamer.tex}
 %\usepackage{pgfpages} \setbeameroption{show notes on second screen=left}
-\author[]{Christophe Viroulaud}
+\author[]{Formation 2022-2023}
 \title{Construire un projet}
 \date{\framebox{\textbf{NSI}}}
 %\logo{}
-\institute{Formation NSI}
+%\institute{Formation NSI}
 
 \begin{document}
 \begin{frame}
@@ -109,7 +109,23 @@
     Exemple: Vérification de chaque fonction de calcul du gagnant (vertical, horizontal)
 \end{frame}
 \section{Puissance 4}
-\subsection{Puissance 4 - Spécifications}
+\subsection{Avec les élèves}
+\begin{frame}
+    \frametitle{Puissance 4 - Avec les élèves}
+
+    \begin{itemize}
+        \item <1->Premier projet de la classe de première.
+        \item <2->Notions déjà abordées:
+        \begin{itemize}
+            \item constructions élémentaires,
+            \item fonctions,
+            \item types construits.
+        \end{itemize}
+        \item <3->Présentation de la construction de projet à travers un exemple détaillé.
+    \end{itemize}
+
+\end{frame}
+\subsection{Spécifications}
 \begin{frame}
     \frametitle{Spécifications}
 
@@ -201,11 +217,12 @@
 
     {\Large \textbf{\texttt{placer\_jeton}}}
     \begin{itemize}
-        \item rôle: place le jeton 
+        \item rôle: place le jeton dans la grille
         \item paramètres:
         \begin{itemize}
             \item grille: tableau
             \item colonne: entier
+            \item joueur: entier
         \end{itemize}
         \item renvoi: entier, la ligne où le jeton est placé
     \end{itemize}
@@ -215,7 +232,7 @@
 
     {\Large \textbf{\texttt{verifier\_gagnant}}}
     \begin{itemize}
-        \item rôle: place le jeton 
+        \item rôle: vérifie si la partie est terminée 
         \item paramètres:
         \begin{itemize}
             \item grille: tableau
@@ -229,10 +246,13 @@
 \end{frame}
 \begin{frame}
 
-    {\Large \textbf{\texttt{afficher\_grille}}}
+    {\Large \textbf{\texttt{dessiner\_grille}}}
     \begin{itemize}
         \item rôle: afficher la grille remplie
-        \item paramètres: aucun
+        \item paramètres:
+        \begin{itemize}
+            \item grille: tableau
+        \end{itemize}
         \item renvoi: rien
     \end{itemize}
 
@@ -242,7 +262,10 @@
     {\Large \textbf{\texttt{afficher\_gagnant}}}
     \begin{itemize}
         \item rôle: afficher le nom du gagnant 
-        \item paramètres: aucun
+        \item paramètres:
+        \begin{itemize}
+            \item joueur: entier
+        \end{itemize}
         \item renvoi: rien
     \end{itemize}
 
@@ -259,9 +282,9 @@ Il sera peut-être nécessaire d'écrire d'autres fonctions pour exécuter certa
 \end{itemize}
 \end{aretenir}
 \end{frame}
-\section{Avec les élèves}
+\subsection{Fourni aux élèves}
 \begin{frame}
-    \frametitle{Avec les élèves}
+    \frametitle{Fourni aux élèves}
 
     Fournir le programme avec:
         \begin{itemize}
@@ -269,6 +292,21 @@ Il sera peut-être nécessaire d'écrire d'autres fonctions pour exécuter certa
             \item toutes les signatures des fonctions,
             \item quelques fonctions non complétées.
         \end{itemize}
+
+\end{frame}
+\section{Lancement du projet}
+\begin{frame}
+    \frametitle{Lancement du projet}
+\begin{itemize}
+    \item <1->Choix du projet parmi:
+    \begin{itemize}
+        \item Morpion,
+        \item ToutÉteint,
+        \item Démineur (simplifié).
+    \end{itemize}
+    \item <2->Respect des étapes de conception
+\end{itemize}
+    
 
 \end{frame}
 \end{document}

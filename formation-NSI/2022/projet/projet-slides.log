@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.07.0 (TeX Live 2019/dev/Debian)  (format=lualatex 2020.5.30)  26 MAR 2022 14:15
+This is LuaTeX, Version 1.07.0 (TeX Live 2019/dev/Debian)  (format=lualatex 2020.5.30)  15 JUN 2022 17:17
  system commands enabled.
 **/home/tof/Documents/Cozy/formations/formation-NSI/2022/projet/projet-slides
 (/home/tof/Documents/Cozy/formations/formation-NSI/2022/projet/projet-slides.tex
@@ -33,7 +33,7 @@ Inserting `luaotfload.aux.patch_cambria_domh' at position 2 in `luaotfload.patch
 Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_font_unsafe'.
 Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font'.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'.
-luaotfload | main : initialization completed in 0.158 seconds
+luaotfload | main : initialization completed in 0.194 seconds
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamer.cls
 Document Class: beamer 2018/12/02 v3.55 A class for typesetting presentations
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasemodes.sty (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
@@ -1574,7 +1574,7 @@ Package newfloat Info: float type `listing'=16 on input line 11.
 (./projet-slides.nav) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
-<ressources/puissance4.jpg, id=64, 752.8125pt x 752.8125pt>
+<ressources/puissance4.jpg, id=76, 752.8125pt x 752.8125pt>
 File: ressources/puissance4.jpg Graphic file (type jpg)
 <use ressources/puissance4.jpg>
 Package luatex.def Info: ressources/puissance4.jpg  used on input line 26.
@@ -1634,80 +1634,94 @@ Overfull \hbox (23.67339pt too wide) in paragraph at lines 74--74
 
 ] (./projet-slides.toc) [10
 
-]
-Package mdframed Info: mdframed detected package amsthm 
- changed the theorem header of amsthm
-(mdframed)              on input line 120.
-Package mdframed Info: mdframed detected package amsthm 
- changed the theorem header of amsthm
-(mdframed)              on input line 120.
-Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 120.
- [11
+] [11
 
 ] [12
 
-] (./projet-slides.toc) [13
+] [13
+
+] (./projet-slides.toc) [14
 
 ]
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 138.
+(mdframed)              on input line 136.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 138.
+(mdframed)              on input line 136.
 Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 138.
- [14
+ mdframed uses option nobreak mdframed on input line 136.
+ [15
 
-] [15
+] [16
 
-] (./projet-slides.toc) [16
+] (./projet-slides.toc) [17
 
 ]
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 160.
+(mdframed)              on input line 154.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 160.
+(mdframed)              on input line 154.
 Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 160.
- [17
-
-]
-LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <14.4> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 175.
+ mdframed uses option nobreak mdframed on input line 154.
  [18
 
 ] [19
 
-] [20
+] (./projet-slides.toc) [20
 
-] [21
+]
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 176.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 176.
+Package mdframed Info: mdframed inside a box 
+ mdframed uses option nobreak mdframed on input line 176.
+ [21
 
-] [22
+]
+LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <14.4> not available
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 191.
+ [22
 
 ] [23
 
 ] [24
 
+] [25
+
+] [26
+
+] [27
+
+] [28
+
 ]
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 261.
+(mdframed)              on input line 284.
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10.95> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 261.
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 284.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 261.
+(mdframed)              on input line 284.
 Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 261.
- [25
+ mdframed uses option nobreak mdframed on input line 284.
+ [29
 
-] (./projet-slides.toc) [26
+] (./projet-slides.toc) [30
 
-] [27
+] [31
+
+] (./projet-slides.toc) [32
+
+] [33
+
+] [34
 
 ]
 \tf@nav=\write8
@@ -1719,29 +1733,29 @@ Package mdframed Info: mdframed inside a box
 \tf@snm=\write10
 
 \openout10 = projet-slides.snm
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 274.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 274.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 312.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 312.
  (./projet-slides.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 274.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 274.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 312.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 312.
 Package rerunfilecheck Info: File `projet-slides.out' has not changed.
-(rerunfilecheck)             Checksum: 6155427D90A308928AE65A3EB2E78889;945.
+(rerunfilecheck)             Checksum: 9E5757001F87EA3BFC994751DCA97CED;1180.
 )
 
 Here is how much of LuaTeX's memory you used:
- 44557 strings out of 494383
+ 44602 strings out of 494383
  100000,1144653 words of node,token memory allocated
- 57485 words of node memory still in use:
-   34 hlist, 9 vlist, 3 rule, 13 disc, 6 local_par, 6 math, 131 glue, 12 kern, 22 penalty, 6871 glyph, 3003 attribute, 106 glue_spec, 503 attribute_list, 3 write, 24 pdf_colorstack nodes
-   avail lists: 1:3,2:2161,3:311,4:175,5:98,6:36,7:547,8:28,9:282,10:10,11:68,12:1
- 47098 multiletter control sequences out of 65536+600000
+ 81503 words of node memory still in use:
+   42 hlist, 9 vlist, 3 rule, 13 disc, 7 local_par, 10 math, 156 glue, 16 kern, 28 penalty, 9712 glyph, 4599 attribute, 106 glue_spec, 769 attribute_list, 3 write, 16 pdf_literal, 34 pdf_colorstack nodes
+   avail lists: 1:3,2:1559,3:294,4:207,5:102,6:46,7:578,8:34,9:289,10:10,11:68,12:1
+ 47113 multiletter control sequences out of 65536+600000
  90 fonts using 11501183 bytes
  70i,15n,95p,1169b,1064s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/share/texmf/fonts/opentype/public/lm/lmmonolt10-bold.otf></usr/share/texmf/fonts/opentype/public/lm/lmsans10-oblique.otf></usr/share/texmf/fonts/opentype/public/lm/lmromancaps10-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmsans10-bold.otf></usr/share/texmf/fonts/opentype/public/lm/lmsans10-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmsans12-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmsans8-regular.otf></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on projet-slides.pdf (27 pages, 215685 bytes).
+Output written on projet-slides.pdf (34 pages, 228879 bytes).
 
-PDF statistics: 484 PDF objects out of 1000 (max. 8388607)
- 420 compressed objects within 5 object streams
- 62 named destinations out of 1000 (max. 131072)
- 74 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 677 PDF objects out of 1000 (max. 8388607)
+ 604 compressed objects within 7 object streams
+ 78 named destinations out of 1000 (max. 131072)
+ 90 words of extra memory for PDF output out of 10000 (max. 100000000)
 

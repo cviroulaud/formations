@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.07.0 (TeX Live 2019/dev/Debian)  (format=lualatex 2020.5.30)  27 MAY 2022 14:11
+This is LuaTeX, Version 1.07.0 (TeX Live 2019/dev/Debian)  (format=lualatex 2020.5.30)  15 JUN 2022 13:44
  system commands enabled.
 **/home/tof/Documents/Cozy/formations/formation-NSI/2022/structures-donnees/structures-donnees-slides
 (/home/tof/Documents/Cozy/formations/formation-NSI/2022/structures-donnees/structures-donnees-slides.tex
@@ -33,7 +33,7 @@ Inserting `luaotfload.aux.patch_cambria_domh' at position 2 in `luaotfload.patch
 Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_font_unsafe'.
 Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font'.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'.
-luaotfload | main : initialization completed in 0.106 seconds
+luaotfload | main : initialization completed in 0.121 seconds
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamer.cls
 Document Class: beamer 2018/12/02 v3.55 A class for typesetting presentations
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasemodes.sty (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
@@ -1348,9 +1348,6 @@ Package: colortbl 2018/12/12 v1.0d Color table columns (DPC)
 
 LaTeX Warning: Label `IMG' multiply defined.
 
-
-LaTeX Warning: Label `CODE' multiply defined.
-
 )
 \openout1 = structures-donnees-slides.aux
 
@@ -1588,7 +1585,7 @@ LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <4> not available
 ] (./structures-donnees-slides.toc) [3
 
 ]
-<ressources/premiere.png, id=192, 2043.635pt x 1222.5675pt>
+<ressources/premiere.png, id=160, 2043.635pt x 1222.5675pt>
 File: ressources/premiere.png Graphic file (type png)
 <use ressources/premiere.png>
 Package luatex.def Info: ressources/premiere.png  used on input line 32.
@@ -1603,7 +1600,7 @@ Overfull \hbox (5.69043pt too wide) in paragraph at lines 32--32
 <./ressources/premiere.png>] (./structures-donnees-slides.toc) [5
 
 ]
-<ressources/terminale1.png, id=253, 1788.6825pt x 405.515pt>
+<ressources/terminale1.png, id=213, 1788.6825pt x 405.515pt>
 File: ressources/terminale1.png Graphic file (type png)
 <use ressources/terminale1.png>
 Package luatex.def Info: ressources/terminale1.png  used on input line 44.
@@ -1613,7 +1610,7 @@ Overfull \hbox (5.69043pt too wide) in paragraph at lines 44--44
  [] 
  []
 
-<ressources/terminale2.png, id=254, 1790.69pt x 499.8675pt>
+<ressources/terminale2.png, id=214, 1790.69pt x 499.8675pt>
 File: ressources/terminale2.png Graphic file (type png)
 <use ressources/terminale2.png>
 Package luatex.def Info: ressources/terminale2.png  used on input line 44.
@@ -1757,29 +1754,29 @@ Package inputenc Warning: inputenc package ignored with utf8 based engines.
 
 ] (./structures-donnees-slides.toc) [25
 
-] [26
+]
+LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <17.28> not available
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 392.
+ [26
+
+] [27
 
 ]
 \openout4 = structures-donnees-slides.vrb
- (./structures-donnees-slides.vrb) [27
+ (./structures-donnees-slides.vrb) [28
 
-] (./structures-donnees-slides.toc) [28
-
-]
-\openout4 = structures-donnees-slides.vrb
- (./structures-donnees-slides.vrb
-
-Package inputenc Warning: inputenc package ignored with utf8 based engines.
-
-) [29
+] (./structures-donnees-slides.toc) [29
 
 ]
-\openout4 = structures-donnees-slides.vrb
- (./structures-donnees-slides.vrb
-
-Package inputenc Warning: inputenc package ignored with utf8 based engines.
-
-) [30
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 443.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 443.
+Package mdframed Info: mdframed inside a box 
+ mdframed uses option nobreak mdframed on input line 443.
+ [30
 
 ]
 \openout4 = structures-donnees-slides.vrb
@@ -1795,15 +1792,41 @@ Package inputenc Warning: inputenc package ignored with utf8 based engines.
 
 Package inputenc Warning: inputenc package ignored with utf8 based engines.
 
-
-warning  (pdf backend): ignoring duplicate destination with the name 'CODE'
 ) [32
 
-] (./structures-donnees-slides.toc) [33
+]
+\openout4 = structures-donnees-slides.vrb
+ (./structures-donnees-slides.vrb
 
-] (./structures-donnees-slides.toc) [34
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
 
-] (./structures-donnees-slides.toc) [35
+) [33
+
+]
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 533.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 533.
+Package mdframed Info: mdframed inside a box 
+ mdframed uses option nobreak mdframed on input line 533.
+ [34
+
+]
+\openout4 = structures-donnees-slides.vrb
+ (./structures-donnees-slides.vrb
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+Overfull \vbox (6.45332pt too high) detected at line 560
+ []
+
+[35
 
 ]
 \tf@nav=\write8
@@ -1815,13 +1838,13 @@ warning  (pdf backend): ignoring duplicate destination with the name 'CODE'
 \tf@snm=\write10
 
 \openout10 = structures-donnees-slides.snm
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 527.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 527.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 561.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 561.
  (./structures-donnees-slides.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 527.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 527.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 561.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 561.
 Package rerunfilecheck Info: File `structures-donnees-slides.out' has not changed.
-(rerunfilecheck)             Checksum: 5A4024476BC4E461E65593E265D1BD3F;2143.
+(rerunfilecheck)             Checksum: 7F7A294B01E69801387BD3C417B4A332;1683.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -1829,19 +1852,19 @@ LaTeX Warning: There were multiply-defined labels.
 )
 
 Here is how much of LuaTeX's memory you used:
- 45030 strings out of 494383
- 305342,1144653 words of node,token memory allocated
- 140425 words of node memory still in use:
-   41 hlist, 14 vlist, 4 rule, 18 disc, 10 local_par, 101 glue, 9 kern, 19 penalty, 16696 glyph, 8949 attribute, 106 glue_spec, 1494 attribute_list, 7 write, 8 pdf_literal, 8 pdf_start_link, 8 pdf_end_link, 2 pdf_dest, 8 pdf_action, 70 pdf_colorstack nodes
-   avail lists: 1:6,2:7358,3:1233,4:4200,5:3469,6:70,7:1632,8:3118,9:5675,10:28,11:321,12:1
- 47444 multiletter control sequences out of 65536+600000
- 72 fonts using 10356671 bytes
+ 45013 strings out of 494383
+ 305420,1144653 words of node,token memory allocated
+ 204598 words of node memory still in use:
+   2923 hlist, 7 vlist, 1626 rule, 169 disc, 22 local_par, 1321 glue, 1810 kern, 41 penalty, 15302 glyph, 12105 attribute, 106 glue_spec, 2020 attribute_list, 3 write, 2210 pdf_colorstack nodes
+   avail lists: 1:6,2:1734,3:1232,4:2355,5:1867,6:64,7:2321,8:1646,9:3101,10:25,11:217,12:1
+ 47449 multiletter control sequences out of 65536+600000
+ 74 fonts using 10609143 bytes
  70i,15n,95p,1193b,1064s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/share/texmf/fonts/opentype/public/lm/lmsans17-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmmono10-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmromancaps10-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmsans9-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmsans10-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmsans12-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmsans10-bold.otf></usr/share/texmf/fonts/opentype/public/lm/lmmonolt10-bold.otf></usr/share/texmf/fonts/opentype/public/lm/lmsans8-regular.otf></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on structures-donnees-slides.pdf (35 pages, 481640 bytes).
+Output written on structures-donnees-slides.pdf (35 pages, 476865 bytes).
 
-PDF statistics: 1225 PDF objects out of 1440 (max. 8388607)
- 1135 compressed objects within 12 object streams
- 93 named destinations out of 1000 (max. 131072)
- 154 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 1034 PDF objects out of 1200 (max. 8388607)
+ 946 compressed objects within 10 object streams
+ 89 named destinations out of 1000 (max. 131072)
+ 122 words of extra memory for PDF output out of 10000 (max. 100000000)
 

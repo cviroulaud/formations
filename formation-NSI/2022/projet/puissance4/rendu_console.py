@@ -58,3 +58,4 @@ def choisir_colonne() -> int:
         except ValueError:
             print("Il faut un nombre")
     return rep
+

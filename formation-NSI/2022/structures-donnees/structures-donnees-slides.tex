@@ -2,11 +2,11 @@
 \input{/home/tof/Documents/Cozy/latex-include/preambule_commun.tex}
 \input{/home/tof/Documents/Cozy/latex-include/preambule_beamer.tex}
 %\usepackage{pgfpages} \setbeameroption{show notes on second screen=left}
-\author[]{Christophe Viroulaud}
+\author[]{Formation 2022-2023}
 \title{Représentation des données \\ types construits}
 \date{\framebox{\textbf{NSI}}}
 %\logo{}
-\institute{Formation NSI}
+%\institute{Formation NSI}
 
 \begin{document}
 \begin{frame}
@@ -373,6 +373,27 @@ for i in range(len(dico)):
 
     \begin{center}
         \begin{tikzpicture}
+            \draw[fill=PeachPuff] (0,0) -- (5,0) -- (5,1) -- (0,1) -- cycle;
+            \draw[fill=PeachPuff] (0.5,-1.5) -- (3,-1.5) -- (3,-0.5) -- (0.5,-0.5) -- cycle;
+            \draw (0,0) grid (5,1);
+
+            \foreach \i in {0,1,...,4}{
+                \draw (0.5+\i,0.5) node{\i};
+            }
+\node at(0.5,-1){\textbf{\texttt{{\LARGE for i in range(5)}}} :};
+\draw[->,>=latex] (-0.9,-0.5) to[out=90,in=90] (0.5,1);
+\draw[->,>=latex] (-0.9,-0.5) to[out=90,in=90] (1.5,1);
+
+        \end{tikzpicture}
+
+        \captionof{figure}{\centering En amont, comment présenter les boucles bornées?}
+    \end{center}
+
+\end{frame}
+\begin{frame}
+
+    \begin{center}
+        \begin{tikzpicture}
             \draw (0,0) grid (5,1);
 
             \foreach \i/\n in {0/3,1/8,2/13,3/23,4/1}{
@@ -405,12 +426,22 @@ for i in range(len(dico)):
 \begin{frame}[fragile]
     \frametitle{}
 
+    \begin{center}
+        {\LARGE \texttt{\textbf{for}} element \texttt{\textbf{in}} structure}
+    \end{center}
+La variable \textbf{\texttt{element}} prend ses valeurs dans la \textbf{\texttt{structure}} (ordonnée ou non).
     
-
 \end{frame}
 \section{Fonction et paramètre mutable}
-\begin{frame}[fragile]
+\begin{frame}
     \frametitle{Fonction et paramètre mutable}
+
+    \begin{aretenir}[Observation]
+Le passage d'un argument mutable à une fonction est source d'erreur.
+    \end{aretenir}
+
+\end{frame}
+\begin{frame}[fragile]
     \begin{center}
     \begin{lstlisting}[language=Python, basicstyle=\ttfamily\small , xleftmargin=1em, xrightmargin=1em]
 tab = [3, 8, 13, 23, 1]
@@ -495,33 +526,36 @@ ma_fonction(tab)
     {\LARGE \href{https://tinyurl.com/tabfonc}{Visualiser sur Pythontutor}}
 \end{center}
 \end{frame}
+\begin{frame}
+\begin{aretenir}[Observation]
+Il faut se méfier des valeurs par défaut pour les paramètres d'une fonction.
+\end{aretenir}
+\end{frame}
 \begin{frame}[fragile]
     \frametitle{}
+
 \begin{center}
-\begin{lstlisting}[language=Python, basicstyle=\ttfamily\small , xleftmargin=1em, xrightmargin=0em]
-def prefixe(arbre: list, i: int = 0, p: list = []):
-    if i < len(arbre):
-        p.append(arbre[i])
-        prefixe(arbre, 2*i+1, p)
-        prefixe(arbre, 2*i+2, p)
-    return p
+\begin{lstlisting}[language=Python, basicstyle=\ttfamily\small , xleftmargin=0.2em, xrightmargin=-1em]
+pieces = [100,50,20,10,5,2,1]
+def rendu_glouton(arendre, solution = [], i = 0):
+    if arendre == 0:
+        return solution
+    p = pieces[i]
+    if p <= arendre :
+        solution.append(p)
+        return rendu_glouton(arendre - p, solution, i)
+    else :
+        return rendu_glouton(arendre, solution, i+1)
 
-
-arbre = [0, 1, 2, 3, 4, 5, 6]
-parcours = prefixe(arbre)
-parcours = prefixe(arbre)
+rendre = rendu_glouton(17)
+rendre = rendu_glouton(17)
 \end{lstlisting}
-\captionof{code}{valeur par défaut dans paramètre
-}
-\label{CODE}
+\captionof{code}{\centering Extrait épreuve pratique sujet 01: valeur par défaut dans paramètre}
+\begin{lstlisting}[language=Python, basicstyle=\ttfamily\small , xleftmargin=0.2em, xrightmargin=-1em]
+>>> rendre
+[10, 5, 2, 10, 5, 2]
+\end{lstlisting}
 \end{center}
 
-
 \end{frame}
-\section{Piles, files}
-\subsection{Définition}
-\subsection{Interface}
-\subsection{Implémentations}
-\subsubsection{Par un tableau}
-\subsubsection{Par une liste chaînée}
 \end{document}

@@ -1,7 +1,9 @@
 \babel@toc {french}{}
 \beamer@sectionintoc {1}{Cycle de vie d'un projet}{5}{0}{1}
 \beamer@sectionintoc {2}{Puissance 4}{10}{0}{2}
-\beamer@subsectionintoc {2}{1}{Puissance 4 - Spécifications}{11}{0}{2}
-\beamer@subsectionintoc {2}{2}{Conception générale}{13}{0}{2}
-\beamer@subsectionintoc {2}{3}{Conception détaillée}{16}{0}{2}
-\beamer@sectionintoc {3}{Avec les élèves}{26}{0}{3}
+\beamer@subsectionintoc {2}{1}{Avec les élèves}{11}{0}{2}
+\beamer@subsectionintoc {2}{2}{Spécifications}{14}{0}{2}
+\beamer@subsectionintoc {2}{3}{Conception générale}{17}{0}{2}
+\beamer@subsectionintoc {2}{4}{Conception détaillée}{20}{0}{2}
+\beamer@subsectionintoc {2}{5}{Fourni aux élèves}{30}{0}{2}
+\beamer@sectionintoc {3}{Lancement du projet}{32}{0}{3}

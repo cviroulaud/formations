@@ -14,8 +14,4 @@
 \beamer@sectionintoc {3}{Parcours de listes et dictionnaires}{22}{0}{3}
 \beamer@subsectionintoc {3}{1}{Difficultés rencontrées}{23}{0}{3}
 \beamer@subsectionintoc {3}{2}{Surmonter les difficultés}{25}{0}{3}
-\beamer@sectionintoc {4}{Fonction et paramètre mutable}{28}{0}{4}
-\beamer@sectionintoc {5}{Piles, files}{33}{0}{5}
-\beamer@subsectionintoc {5}{1}{Définition}{34}{0}{5}
-\beamer@subsectionintoc {5}{2}{Interface}{34}{0}{5}
-\beamer@subsectionintoc {5}{3}{Implémentations}{35}{0}{5}
+\beamer@sectionintoc {4}{Fonction et paramètre mutable}{29}{0}{4}

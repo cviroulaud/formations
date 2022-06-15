@@ -50,14 +50,14 @@ def est_remplie(grille: list, colonne: int) -> bool:
     return not(grille[0][colonne] == VIDE)
 
 
-def placer_jeton(grille: list, colonne: int, joueur) -> int:
+def placer_jeton(grille: list, colonne: int, joueur: int) -> int:
     """
     place le jeton 
     Args:
         grille (list): le jeu
         ligne (int): la ligne
         colonne (int): la colonne
-        joueur ([type]): la couleur du joueur
+        joueur (int): la couleur du joueur
     Returns:
         int: la ligne où le jeton s'est arrêté 
     """

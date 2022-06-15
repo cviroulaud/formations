@@ -1,21 +1,25 @@
 \frametitle{}
+
 \begin{center}
-\begin{lstlisting}[language=Python, basicstyle=\ttfamily\small , xleftmargin=1em, xrightmargin=0em]
-def prefixe(arbre: list, i: int = 0, p: list = []):
-    if i < len(arbre):
-        p.append(arbre[i])
-        prefixe(arbre, 2*i+1, p)
-        prefixe(arbre, 2*i+2, p)
-    return p
+\begin{lstlisting}[language=Python, basicstyle=\ttfamily\small , xleftmargin=0.2em, xrightmargin=-1em]
+pieces = [100,50,20,10,5,2,1]
+def rendu_glouton(arendre, solution = [], i = 0):
+    if arendre == 0:
+        return solution
+    p = pieces[i]
+    if p <= arendre :
+        solution.append(p)
+        return rendu_glouton(arendre - p, solution, i)
+    else :
+        return rendu_glouton(arendre, solution, i+1)
 
-
-arbre = [0, 1, 2, 3, 4, 5, 6]
-parcours = prefixe(arbre)
-parcours = prefixe(arbre)
+rendre = rendu_glouton(17)
+rendre = rendu_glouton(17)
 \end{lstlisting}
-\captionof{code}{valeur par défaut dans paramètre
-}
-\label{CODE}
+\captionof{code}{\centering Extrait épreuve pratique sujet 01: valeur par défaut dans paramètre}
+\begin{lstlisting}[language=Python, basicstyle=\ttfamily\small , xleftmargin=0.2em, xrightmargin=-1em]
+>>> rendre
+[10, 5, 2, 10, 5, 2]
+\end{lstlisting}
 \end{center}
-
 
